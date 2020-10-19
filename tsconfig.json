@@ -1,0 +1,10 @@
+{
+    "files": [
+      "app/scripts/main.ts",
+      "node_modules/gsap/types/index.d.ts"
+    ],
+    "compilerOptions": {
+      "noImplicitAny": true,
+      "target": "es2015"
+    }
+  }

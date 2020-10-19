@@ -1,0 +1,55 @@
+html {
+  --rainbowColor: #FF0000;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.circles {
+  list-style: none;
+
+  .circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #3e3e3e;
+  }
+}
+
+.svg-container {
+  border-top: 1px solid #9f9f9f;
+  margin-top: 25px;
+  padding: 25px 0 25px 0;
+}
+
+.rainbow-box {
+  border: 1px solid var(--rainbowColor);
+  border-radius: 10px;
+  padding: 25px;
+
+  h3,
+  p>span {
+    color: var(--rainbowColor);
+  }
+
+  p > span {
+    font-weight: 500;
+  }
+
+  p {
+    color: white;
+  }
+
+  button {
+    background-color: var(--rainbowColor);
+    border: var(--rainbowColor);
+    font-weight: 500;
+    color: white;
+    padding: 4px 20px;
+    border-radius: 20px;
+    text-shadow: 1px 1px #3e3e3e;
+  }
+}
